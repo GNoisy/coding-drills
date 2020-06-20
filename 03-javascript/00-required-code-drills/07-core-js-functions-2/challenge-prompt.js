@@ -14,7 +14,7 @@ console.log(result);
 // define a function "wibble" that takes a string as an argument,
 // console logs the argument, prepends "wibbly " to the argument, and returns the result
 function wibble(str) {
-    return "wibbly" + str;
+    return "wibbly " + str;
 }
 
 

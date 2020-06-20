@@ -130,12 +130,16 @@ var uniqueFruits = [];
 
 // iterate through fruits and populate uniqueFruits with only unique values from fruits
 // you should a shorter array without repeated values
-
+for (var i=0; i < fruits.length; i++) {
+  if (!uniqueFruits.includes(fruits[i])) {
+    uniqueFruits.push(fruits[i]);
+  }
+}
 
 
 // console log out your uniqueFruits array
 
-
+console.log(uniqueFruits);
 
 
 // This seperator is here to make your console logs a little easier to read 
