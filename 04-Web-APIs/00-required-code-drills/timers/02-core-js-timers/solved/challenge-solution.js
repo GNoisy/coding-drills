@@ -2,11 +2,13 @@
 
 console.log("==================== Question 01 ====================");
 // Create a timer that creates an alert that says "Question 1" after 5 seconds
+
 function questionOne () {
   alert("Question 1");
 }
 
 setTimeout(questionOne, 1000 * 5);
+
 
 
 console.log("==================== Question 02 ====================");
@@ -15,7 +17,7 @@ function questionTwo () {
   alert("Question 2");
 }
 
-var questionTwo = setTimeout(questionOne, 1000 * 15);
+var questionTwo = setTimeout(questionTwo, 1000 * 15);
 
 
 // Remove the timer you just made for Question 2
